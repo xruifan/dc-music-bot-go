@@ -16,4 +16,4 @@ example:
 /play https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
-`leave` leave the vc channel.
+`/leave` leave the vc channel.
