@@ -35,7 +35,6 @@ func Start() {
 	if err := sess.Open(); err != nil {
 		logrus.Fatalf("Error opening Discord session: %v", err)
 	}
-	defer sess.Close()
 
 	// Register handlers
 	SlashCommandHandler.RegisterHandlers(sess, &wg)
